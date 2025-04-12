@@ -4,7 +4,7 @@ import { FaPlay, FaPause, FaDownload } from 'react-icons/fa';
 import clsx from 'clsx';
 
 const demos = [
-  { label: 'COMMERCIAL', src: '/audio/commercial.mp3' },
+  { label: 'COMMERCIAL', src: '/audio/Dorinta-Massif.mp3' },
   { label: 'VIDEO GAMES', src: '/audio/videogames.mp3' },
   { label: 'AUDIOBOOK', src: '/audio/audiobook.mp3' },
   { label: 'CORPORATE', src: '/audio/corporate.mp3' },
