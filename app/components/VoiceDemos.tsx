@@ -59,7 +59,7 @@ function VoiceDemoPlayer({
 
   return (
     <div
-      className="relative bg-[#212121] text-white w-full max-w-[320px] flex items-center justify-between px-5 py-4 gap-3 cursor-pointer rounded"
+      className="relative bg-[#212121] text-white w-full max-w-[640px] md:max-w-[320px] flex items-center justify-between px-6 py-6 gap-4 cursor-pointer"
       onClick={seek}
     >
       <audio

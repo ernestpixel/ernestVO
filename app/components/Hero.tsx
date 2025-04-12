@@ -15,7 +15,7 @@ export default function Hero() {
     <section id="hero" className="w-full bg-black overflow-hidden border-b-[5px] border-white relative h-[60vh] md:h-[75vh]">
       <div className="mx-auto max-w-screen-xl h-full px-6 md:px-12 relative">
         {/* ERNEST top-left */}
-        <div className="absolute top-10 left-6 md:left-12 text-white text-6xl md:text-[120px] font-semibold">
+        <div className="absolute top-10 left-6 md:left-12 text-white text-8xl md:text-[120px] font-semibold">
           ERNEST
         </div>
 
@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="absolute bottom-10 right-6 md:right-12 text-white text-right z-10">
           <div
             className={clsx(
-              'text-6xl md:text-[120px] font-bold transform transition-all duration-700',
+              'text-8xl md:text-[120px] font-bold transform transition-all duration-700',
               animate ? 'translate-x-0 opacity-100' : 'translate-x-[-100%] opacity-0'
             )}
           >
